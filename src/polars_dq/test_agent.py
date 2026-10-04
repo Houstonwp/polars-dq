@@ -1,7 +1,8 @@
 import polars as pl
+
+from polars_dq.actions import Action
 from polars_dq.agent import Agent, coalesce_actions
 from polars_dq.validation import Validation
-from polars_dq.actions import Action
 
 
 def test_with_validation_no_precondition_no_segments():

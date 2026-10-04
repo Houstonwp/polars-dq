@@ -1,7 +1,7 @@
 [project]
 name = "polars-dq"
 version = "0.1.0"
-description = "Add your description here"
+description = "Experimental expression-based data-quality checks for Polars"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = ["polars>=1.20.0"]
