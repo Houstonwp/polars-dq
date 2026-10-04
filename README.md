@@ -87,3 +87,8 @@ The tests include failing-data end-to-end checks, zero-tolerance overrides,
 explicitly disabled steps, segments/preconditions, null/empty data, bounded
 samples, and error reporting. For the minimum supported Polars version, install
 `polars==1.20.0` and rerun the same tests.
+
+GitHub Actions runs tests, Ruff, and dependency checks on pull requests and
+pushes to `main`. The matrix covers Python 3.11 with Polars 1.20.0 and Python
+3.13 with the current Polars release. The workflow has read-only repository
+permissions and does not publish packages or deploy anything.
